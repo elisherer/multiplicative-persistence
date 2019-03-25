@@ -1,0 +1,20 @@
+{
+  "name": "multiplicative-persistence",
+  "version": "1.0.0",
+  "description": "multiplicative persistence experiments",
+  "main": "finder.js",
+  "scripts": {
+    "start": "node finder",
+    "test": "node check.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisherer/multiplicative-persistence.git"
+  },
+  "author": "Eli Sherer <eli.sherer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elisherer/multiplicative-persistence/issues"
+  },
+  "homepage": "https://github.com/elisherer/multiplicative-persistence#readme"
+}
