@@ -4,7 +4,7 @@ const check = num => {
   while (Math.ceil(Math.log10(num + 1)) > 1) {
     let x = num;
     num = 1;
-    while (x) {
+    while (x && num) {
       const digit = x % 10;
       num *= digit;
       x = (x - digit) / 10;
